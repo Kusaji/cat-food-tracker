@@ -1,0 +1,131 @@
+body {
+    background-color: #00000015;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.sideMargin {
+    display: flex;
+    flex-grow: 1;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    background-color: #00000015;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contentRow {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.contentColumn {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.mainButton {
+    height: 103px;
+    width: 200px;
+    font-size: 1.4em;
+    background-color: #7E8F6F;
+    border: 1px solid #8E9C83;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.mainButton:hover {
+    background-color: rgb(96, 139, 58);
+    transition: 0.5s;
+}
+
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    background-color: #D3D2C6;
+}
+
+.timeBox {
+    display: flex;
+    justify-content: center;
+    background-color: #D3D2C6;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.timerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D2C6;
+    font-size: 1.5em;
+    height: 100px;
+}
+
+.timerBoxFeatured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D2C6;
+    font-size: 1.5em;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexContainerFeatured {
+    display: flex;
+    flex-grow: 1;
+}
+
+#hungryCat {
+    background-image: url(img/cat1.jpg);
+    background-size: cover;
+    background-position: top 30% left 50%;
+    color: white;
+    text-shadow: 0px 0px 6px #000000;
+    padding-left: 10px;
+}
+
+#hungryCat2 {
+    background-image: url(img/cat1.jpg);
+    background-size: auto;
+    background-position: left 100% top 50%;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.footerDiv {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+    background-image: url(img/cat1.jpg);
+    background-size: cover;
+    background-position: left 0% top 75%;
+    height: 200px;
+    color: white;
+}
+
+.footerText {
+    font-size: 0.8em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}

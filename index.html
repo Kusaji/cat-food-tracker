@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Cat Chore Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+
+
+
+    <div class="mainContainer">
+        <div class="sideMargin"></div>
+
+        <div class="mainContent">
+
+            <div class="contentRow">
+                <div id="hungryCat" class="flexContainerFeatured">
+                    <h1>Cat Chore Tracker</h1>
+                </div>
+            </div>
+
+
+            <!-- First Row, Wet Cat Food -->
+            <div class="contentRow">
+
+                <button id="fedCats" onclick="calculateTime('WetFoodTime', 'WetFoodTimeRaw', 'WetFoodTime')"
+                    class="mainButton">Feed Cats Wet Food</button>
+            </div>
+
+            <div class="contentRow">
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Last time cats were fed:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="WetFoodTime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentRow">
+
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Time Since Cats were Last Fed:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="WetFoodTimeDifference"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of Wet Cat Food Row-->
+
+            <!-- Start of Dry Cat Food Row-->
+
+            <div class="contentRow">
+                <button id="fedCats" onclick="calculateTime('DryFoodTime', 'DryFoodTimeRaw', 'DryFoodTime')"
+                    class="mainButton">Feed Cats Dry Food</button>
+            </div>
+
+            <div class="contentRow">
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Last time cats were fed:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="DryFoodTime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentRow">
+
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Time Since Cats were Last Fed:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="DryFoodTimeDifference"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of Dry Cat Food Row-->
+
+            <!-- Start of Water Row-->
+
+            <div class="contentRow">
+                <button id="fedCats" onclick="calculateTime('WaterTime', 'WaterTimeRaw', 'WaterTime')"
+                    class="mainButton">Change Cat Water</button>
+            </div>
+
+            <div class="contentRow">
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Last time cats were fed:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="WaterTime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentRow">
+
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Time since Water Changed:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="WaterTimeDifference"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of Water Row-->
+
+            <!-- Start of Litter Row-->
+
+            <div class="contentRow">
+                <button id="fedCats" onclick="calculateTime('LitterTime', 'LitterTimeRaw', 'LitterTime')"
+                    class="mainButton">Scoop Cat Poop</button>
+            </div>
+
+            <div class="contentRow">
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Last time litter was scooped:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="LitterTime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentRow">
+
+                <div class="timerBoxFeatured">
+                    <div class="titleBox">
+                        <p>Time since Poop Scoopage:</p>
+                    </div>
+                    <div class="timeBox">
+                        <span id="LitterTimeDifference"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of Litter Row-->
+
+            <div class="contentRow">
+                <div class="footerDiv">
+                    <p class="footerText">© <span id="copyRightYear"></span>
+                         Zack Colbert <br/>
+                         This site uses local storage to store simple variables. <br/>
+                         I do not send your data to the Chinese government, because fuck that.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="sideMargin"></div>
+    </div>
+
+
+
+</body>
+
+
+<footer>
+
+</footer>
+
+<script type="text/javascript" src="scripts/moment.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+
+</html>
